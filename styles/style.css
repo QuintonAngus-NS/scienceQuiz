@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    font-size: 62.5%;
 }
 
 body {
@@ -8,9 +9,29 @@ body {
     align-items: center;
 }
 
+#dividerTop {
+    width: 100%;
+    border-top:rgb(14, 109, 41) solid 1px;
+    margin: 2rem 0;
+}
+
 #container {
-    border: 1px solid #70b06b;
-    border-radius: 5px;
-    width: 70vw;
-    height: 65vh;
+    padding: 2rem;
+    width: 80vw;
+    height: 70vh;
+}
+
+#questionNum {
+    font-family: 'Open Sans';
+    color: #141414;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#questionText {
+    font-size: 3.5rem;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    color: rgb(14, 109, 41);
+    width: 45%;
 }
