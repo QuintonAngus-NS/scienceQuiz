@@ -1,5 +1,5 @@
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 html, body {
@@ -36,5 +36,5 @@ body {
     font-weight: 600;
     font-family: 'Open Sans';
     color: rgb(14, 109, 41);
-    width: 45%;
+    max-width: 75rem;
 }
