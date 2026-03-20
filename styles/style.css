@@ -230,9 +230,12 @@ button {
 
 @media (max-width: 480px) {
     .btn {
-        padding: 10px 14px;
-        font-size: 0.9rem;
-        margin: 6px 0;
+        width: 90%;              /* keeps them smaller than the screen */
+        max-width: 320px;        /* prevents huge buttons */
+        margin: 8px auto;        /* centers them */
+        padding: 10px 12px;      /* smaller padding */
+        font-size: 0.9rem;       /* smaller text */
+        border-radius: 8px;      /* optional: softer corners on mobile */
     }
 
     .btnText {
@@ -241,7 +244,7 @@ button {
     }
 
     .btnLetter {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         width: 28px;
         height: 28px;
     }
