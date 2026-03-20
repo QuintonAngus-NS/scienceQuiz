@@ -228,3 +228,22 @@ button {
     border: 1px solid #141414;
 }
 
+@media (max-width: 480px) {
+    .btn {
+        padding: 10px 14px;
+        font-size: 0.9rem;
+        margin: 6px 0;
+    }
+
+    .btnText {
+        font-size: 0.9rem;
+        line-height: 1.2;
+    }
+
+    .btnLetter {
+        font-size: 0.8rem;
+        width: 28px;
+        height: 28px;
+    }
+}
+
