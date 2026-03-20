@@ -14,10 +14,10 @@
         "option1": "heat",
         "option2": "carbon dioxide",
         "option3": "glucose",
-        "option4": "chlorophyll",
+        "option4": "cellulose",
         "answer": "option4",
-        "Correct": "Correct, chlorophyll is not a limiting reactant of photosynthesis.",
-        "Incorrect": "Incorrect, chorophyll is the only one which is not a limiting reactant."
+        "Correct": "Correct, cellulose is not a limiting reactant of photosynthesis.",
+        "Incorrect": "Incorrect, cellulose is the only one which is not a limiting reactant."
     },
     {
         "question": "What limiting factor slows photosynthesis during the nighttime?",
@@ -56,7 +56,7 @@
         "option3": "cellulose",
         "option4": "amino acids",
         "answer": "option3",
-        "Correct": "Correct, the cell wall is made out of cellulose from glucose which give it its stregnth",
+        "Correct": "Correct, the cell wall is made out of cellulose from glucose which give it its stregnth.",
         "Incorrect": "Incorrect, the cell wall is made from cellulose which allows it to be stong and protect the cell."
     }
     {
@@ -66,7 +66,37 @@
         "option3": "water + glucose > carbon dioxide + hydrogen",
         "option4": "oxygen + water > carbon dioxide + glucose",
         "answer": "option1",
-        "Correct": "Correct, the cell wall is made out of cellulose from glucose which give it its stregnth",
-        "Incorrect": "Incorrect, the cell wall is made from cellulose which allows it to be stong and protect the cell."
+        "Correct": "Correct, the word equation for aerobic respiration is, 'glucose + oxygen > carbon dioxide + water'.",
+        "Incorrect": "Incorrect, acually the word equation for aerobic respiration is, 'glucose + oxygen > carbon dioxide + water'."
+    },
+    {
+        "question": "When do we use anerobic respiration?",
+        "option1": "when its too hot",
+        "option2": "when its too cold",
+        "option3": "when we can't get enough oxygen",
+        "option4": "when we don't have enough glucose",
+        "answer": "option3",
+        "Correct": "Correct, our bodys use anerobic respiration when we don't have enough oxygen to preform aerobic respiration.",
+        "Incorrect": "Incorrect, we use anerobic respiration when we den't have enough oxygen."
+    },
+    {
+        "question": "what happens during exercise to the type of respiration we use?",
+        "option1": "We use aerobic",
+        "option2": "we use anerobic",
+        "option3": "it dosen't chnage",
+        "option4": "no clue",
+        "answer": "option2",
+        "Correct": "Correct, during primarly fast exercise our bodys use anerobic respiration, becuase they can't get enough oxygen.",
+        "Incorrect": "Incorrect, we use anerobic respiration when we exercise, becuase we can't get enough oxygen to preform aerobic respiration."
+    },
+    {
+        "question": "After exercise our bodys need oxygen to remove the latctic acid buildup in our body's this is called...",
+        "option1": "oxygen depervation",
+        "option2": "oxygen required",
+        "option3": "oxygen debt",
+        "option4": "oxygen needed",
+        "answer": "option3",
+        "Correct": "Correct, the action of getting oxygen after exercise to remove lactic acid is called oxygen debt.",
+        "Incorrect": "Incorrect, after exercise to remove latic acid built up while using anerobic respiration, our body's take in oxygen to react with the latic acid to form carbon dioxide, this is called oxygen debt."
     }
 ]
