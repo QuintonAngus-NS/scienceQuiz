@@ -269,15 +269,15 @@ button {
     /* BUTTONS */
     .btn {
     width: 100%;
-    max-width: 700px;
-    height: 8rem;
-    border: 1px #141414 solid;
-    margin: 1rem;
-    border-radius: 0.5rem;
+    min-width: unset;
+    max-width: 100%;
+    height: auto;
+    padding: 1.2rem;
+    margin: 0.8rem 0;
+    border-radius: 0.6rem;
     display: flex;
-    flex-direction: row;
-    transition: 0.3s;
-    cursor: pointer;
+    align-items: center;
+    transition: background-color 0.2s, transform 0.1s;
     }
 
     .btnLetter {
