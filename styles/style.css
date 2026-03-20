@@ -230,23 +230,36 @@ button {
 
 @media (max-width: 480px) {
     .btn {
-        width: 90%;              /* keeps them smaller than the screen */
-        max-width: 320px;        /* prevents huge buttons */
-        margin: 8px auto;        /* centers them */
-        padding: 10px 12px;      /* smaller padding */
-        font-size: 0.9rem;       /* smaller text */
-        border-radius: 8px;      /* optional: softer corners on mobile */
-    }
-
-    .btnText {
-        font-size: 0.9rem;
-        line-height: 1.2;
+        min-width: unset;     /* override desktop min-width */
+        max-width: 100%;      /* allow shrinking */
+        width: 100%;          /* full width of screen */
+        height: auto;         /* shrink height */
+        padding: 1rem;        /* smaller padding */
+        margin: 0.8rem 0;     /* tighter spacing */
+        border-radius: 0.5rem;
     }
 
     .btnLetter {
-        font-size: 0.85rem;
-        width: 28px;
-        height: 28px;
+        width: 3.2rem;
+        height: 3.2rem;
+        font-size: 1.6rem;
+        margin-right: 1rem;
+    }
+
+    .btnText {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+
+    #container {
+        width: 95vw;
+        height: auto;
+        padding: 1rem;
+    }
+
+    #questionText {
+        font-size: 2.2rem;
+        margin-bottom: 2rem;
     }
 }
 
