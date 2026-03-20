@@ -59,4 +59,14 @@
         "Correct": "Correct, the cell wall is made out of cellulose from glucose which give it its stregnth",
         "Incorrect": "Incorrect, the cell wall is made from cellulose which allows it to be stong and protect the cell."
     }
+    {
+        "question": "What is the word equation for aerobic respiration?",
+        "option1": "glucose + oxygen > carbon dioxide + water",
+        "option2": "don't know",
+        "option3": "water + glucose > carbon dioxide + hydrogen",
+        "option4": "oxygen + water > carbon dioxide + glucose",
+        "answer": "option1",
+        "Correct": "Correct, the cell wall is made out of cellulose from glucose which give it its stregnth",
+        "Incorrect": "Incorrect, the cell wall is made from cellulose which allows it to be stong and protect the cell."
+    }
 ]

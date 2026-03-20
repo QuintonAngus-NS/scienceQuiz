@@ -228,11 +228,13 @@ button {
     border: 1px solid #141414;
 }
 
-/* MOBILE-FIRST REFACTOR */
+/* ------------------------------ */
+/* MOBILE-FIRST REFACTOR          */
+/* ------------------------------ */
 @media (max-width: 600px) {
 
     html {
-        font-size: 55%; /* slightly smaller base */
+        font-size: 55%;
     }
 
     body {
@@ -257,13 +259,14 @@ button {
         max-width: 100%;
     }
 
-    /* BUTTONS */
+    /* BUTTON WRAPPER */
     #btnsWrapper {
         flex-direction: column;
         width: 100%;
         margin-top: 0;
     }
 
+    /* BUTTONS */
     .btn {
         width: 100%;
         min-width: unset;
@@ -274,6 +277,7 @@ button {
         border-radius: 0.6rem;
         display: flex;
         align-items: center;
+        transition: background-color 0.2s, transform 0.1s;
     }
 
     .btnLetter {
@@ -332,12 +336,29 @@ button {
     }
 }
 
+/* ------------------------------ */
+/* DESKTOP HOVER (real hover only)*/
+/* ------------------------------ */
 @media (hover: hover) and (pointer: fine) {
     .btn:hover {
         background-color: #232323;
     }
 
     .btn:hover .btnText {
+        color: white;
+    }
+}
+
+/* ------------------------------ */
+/* MOBILE TAP FEEDBACK            */
+/* ------------------------------ */
+@media (hover: none) and (pointer: coarse) {
+    .btn:active {
+        background-color: #232323;
+        transform: scale(0.98);
+    }
+
+    .btn:active .btnText {
         color: white;
     }
 }
