@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is the word equation for photosynthesis?",
+        "option1": "oxygen + carbon dioxide > light > glucose + water",
+        "option2": "carbon dioxide + water > light > glucose + oxygen",
+        "option3": "glucose + oxygen > light > carbon dioxide + water",
+        "option4": "carbon dioxide + light > oxygen > water + light",
+        "answer": "option2",
+        "Correct": "Correct, the word equation for photosynthesis is, 'carbon dioxide + water > light > glucose + oxygen'.",
+        "Incorrect": "Incorrect, the word requation for photosynthesis is, 'carbon dioxide + water > light > glucose + oxygen'."
+    },
+    {
+        "question": "Which of these is NOT a limiting factor of photosynthesis?",
+        "option1": "heat",
+        "option2": "carbon dioxide",
+        "option3": "glucose",
+        "option4": "chlorophyll",
+        "answer": "option4",
+        "Correct": "Correct, chlorophyll is not a limiting reactant of photosynthesis.",
+        "Incorrect": "Incorrect, chorophyll is the only one which is not a limiting reactant."
+    },
+    {
+        "question": "What limiting factor slows photosynthesis during the nighttime?",
+        "option1": "heat",
+        "option2": "carbon dioxide",
+        "option3": "glucose",
+        "option4": "light",
+        "answer": "option4",
+        "Correct": "Correct, with light being limited at night without the sun, this limits the rate of photosynthesis.",
+        "Incorrect": "Incorrect, light is the limiting reactant at night, due to the lack of sunlight."
+    },
+    {
+        "question": "What happens to the rate of photosynthesis if the temperature goes too high.",
+        "option1": "nothing",
+        "option2": "the rate of photosynthesis increases rapidly",
+        "option3": "the enzymes denature, causing the rate of photosynthesis to decrease.",
+        "option4": "the chlorophyll burns, killing the plant.",
+        "answer": "option3",
+        "Correct": "Correct, if the temperature gets too hot the enzymes denature, decreasing the rate of photosynthesis.",
+        "Incorrect": "Incorrect, the enzymes acually denature, decreasing the rate of photosynthesis."
+    },
+    {
+        "question": "why is glucose produced during photosynthesis stored as stach in the plant?",
+        "option1": "to prevent it from desolving, because glucose is soulable.",
+        "option2": "because it is more efficant to store it as stach",
+        "option3": "it just does",
+        "option4": "to protect it from infections, such as rose black spot",
+        "answer": "option1",
+        "Correct": "Correct, since glucose is soulable it must be stored as stach to prevent it from desolving.",
+        "Incorrect": "Incorrect, glucose is stored as stach to prevent it from being desolved in the water within the plant."
+    },
+    {
+        "question": "Glucose is converted into _________, which is used to make plant cell walls",
+        "option1": "chlorophyll",
+        "option2": "lipids",
+        "option3": "cellulose",
+        "option4": "amino acids",
+        "answer": "option3",
+        "Correct": "Correct, the cell wall is made out of cellulose from glucose which give it its stregnth",
+        "Incorrect": "Incorrect, the cell wall is made from cellulose which allows it to be stong and protect the cell."
+    }
+]

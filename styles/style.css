@@ -4,6 +4,7 @@ html {
 
 html, body {
     height: 100%;
+    font-family: 'Open Sans';
 }
 
 body {
@@ -14,7 +15,7 @@ body {
 
 #dividerTop {
     width: 100%;
-    border-top:rgb(14, 109, 41) solid 1px;
+    border-top:#141414 solid 1px;
     margin: 2rem 0;
 }
 
@@ -22,6 +23,8 @@ body {
     padding: 2rem;
     width: 80vw;
     height: 70vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #questionNum {
@@ -35,6 +38,193 @@ body {
     font-size: 3.5rem;
     font-weight: 600;
     font-family: 'Open Sans';
-    color: rgb(14, 109, 41);
+    color: #141414;
     max-width: 75rem;
+    margin-bottom: 5rem;
 }
+
+#btnsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    margin-top: auto;
+    justify-content:start;
+}
+
+.btn {
+    min-width: 500px;
+    width: 700px;
+    max-width: 700px;
+    height: 8rem;
+    border: 1px #141414 solid;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.btnLetter {
+    height: 8rem;
+    width: 8rem;
+    font-size: 4rem;
+    color: white;
+    background-color: #141414;
+    border-radius: 0.5rem 0 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans';
+    margin-right: 2rem;
+    font-weight: 600;
+}
+
+.btnText {
+    font-size: 1.75rem;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #141414;
+    width: auto;
+}
+
+.btn:hover {
+    background-color: #232323;
+}
+
+.btn:hover .btnText {
+    color: white;
+}
+
+#answerContainer {
+    border-left: #141414 1px solid;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#answerHeaderWrapper {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+#answerIcon {
+    font-size: 2.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    color: #232323;
+    font-weight: 600;
+    color: rgb(14, 161, 43);
+}
+
+#answerText {
+    font-size: 2.5rem;
+    height: 3.5rem;
+    text-align: center;
+    color: #232323;
+    font-weight: 600;
+    color: rgb(14, 161, 43);
+}
+
+#answerDescription {
+    font-size: 1.5rem;
+    max-width: 75rem;
+    
+}
+
+#answerContainer.hidden {
+    display: none;
+}
+
+#answerContainer.visable {
+    display: flex;
+    animation: answerAnimate ease-in-out 0.4s;
+}
+
+
+@keyframes answerAnimate {
+    from {transform: translateY(100%);}
+    to {transform: translateY(0)}
+}
+
+#ansContainer {
+    overflow: hidden;
+}
+
+
+.containerDisabled {
+    display: none;
+}
+
+.containereEnabled {
+    display: flex;
+}
+
+#container.containerDisabled {
+    display: none;
+}
+
+#resultsContainer.containerDisabled {
+    display: none;
+}
+
+#resultTitle {
+    font-size: 4rem;
+    color: #141414;
+    font-weight: 600;
+}
+
+#resultsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#resultDivider {
+    width: 35rem;
+    border-top: #141414 1px solid;
+    margin: 2rem 0;
+}
+
+#resultScore {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #141414;
+    margin-bottom: 3rem;
+}
+
+button {
+    width: 10vw;
+    height: 4.1vh;
+    font-size: 1.75rem;
+    font-weight: 300;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    cursor: pointer;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+#TABtn {
+    background-color: #141414;
+    color: white;
+    border: 1px solid #141414;
+}
+
+#VRBtn {
+    background: none;
+    color: #141414;
+    border: 1px solid #141414;
+}
+

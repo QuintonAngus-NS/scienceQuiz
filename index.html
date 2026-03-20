@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -11,11 +12,50 @@
     </head>
 
     <body>
-        <div id="container">
-            <div id="questionNum"><i>Question 1</i></div>
+        <div id="container" class="containerEnabled">
+            <div id="questionNum"><i></i></div>
             <div id="dividerTop"></div>
-            <h1 id="questionText">What is the correct formula for photosynthesis?</h1>
+            <h1 id="questionText"></h1>
+            <div id="ansContainer">
+                <div id="answerContainer" class="hidden">
+                    <div id="answerHeaderWrapper">
+                        <div id="answerIcon" class="material-symbols-outlined"></div>
+                        <div id="answerText"></div>
+                    </div>
+                    <div id="answerDescription"></div>
+                </div>
+            </div>
+            <div id="btnsWrapper">
+                <div class="btn" id="option1">
+                    <div class="btnLetter">A</div>
+                    <div class="btnText"></div>
+                </div>
+                <div class="btn" id="option2">
+                    <div class="btnLetter">B</div>
+                    <div class="btnText"></div>
+                </div>
+                <div class="btn" id="option3">
+                    <div class="btnLetter">C</div>
+                    <div class="btnText"></div>
+                </div>
+                <div class="btn" id="option4">
+                    <div class="btnLetter">D</div>
+                    <div class="btnText"></div>
+                </div>
+            </div>
         </div>
+
+        <div id="resultsContainer" class="containerDisabled">
+            <div id="resultTitle">Quiz Completed</div>
+            <div id="resultDivider"></div>
+            <div id="resultScore">0 / 0</div>
+            <div id="resultBtnwrapper">
+                <button type="button" id="TABtn">Try Again</button>
+                <button id="VRBtn">View report (WIP)</button>
+            </div>
+        </div>
+
+        <script src="./scripts/script.js"></script>
     </body>
 
 </html>
