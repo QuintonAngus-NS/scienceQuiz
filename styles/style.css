@@ -362,3 +362,13 @@ button {
         color: white;
     }
 }
+
+@media (max-width: 600px) {
+    .btn:hover {
+        background-color: inherit !important;
+    }
+
+    .btn:hover .btnText {
+        color: inherit !important;
+    }
+}
