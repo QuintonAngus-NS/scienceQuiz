@@ -331,3 +331,13 @@ button {
         font-size: 1.6rem;
     }
 }
+
+@media (hover: hover) and (pointer: fine) {
+    .btn:hover {
+        background-color: #232323;
+    }
+
+    .btn:hover .btnText {
+        color: white;
+    }
+}
